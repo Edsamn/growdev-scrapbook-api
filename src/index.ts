@@ -7,6 +7,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cors());
 
-app.listen(8080, () => {
+const port= process.env.PORT || 8080;
+
+app.listen(port, () => {
     console.log('API rodando...');
 });
