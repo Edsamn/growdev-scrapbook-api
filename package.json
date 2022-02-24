@@ -19,7 +19,7 @@
   },
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts",
-    "prestart": "npx tsc",
-    "start": "node ./dist/index"
+    "prestart": " tsc",
+    "start": "node ./dist"
   }
 }
